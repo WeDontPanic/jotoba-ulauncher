@@ -1,5 +1,5 @@
-#JOTOBA_URL = "https://jotoba.de"
-JOTOBA_URL = "http://127.0.0.1:8080"
+JOTOBA_URL = "https://jotoba.de"
+#JOTOBA_URL = "http://127.0.0.1:8080"
 
 JOTOBA_API = JOTOBA_URL + "/api"
 COMPLETIONS = JOTOBA_API+ "/suggestion"
