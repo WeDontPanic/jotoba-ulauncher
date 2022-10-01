@@ -1,0 +1,76 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "Jotoba",
+  "description": "Japanese dictionary extension",
+  "developer_name": "Jojii",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "kw",
+      "type": "keyword",
+      "name": "Jotoba",
+      "description": "Jotoba keywoard",
+      "default_value": "j"
+    },
+    {
+      "id": "word_kw",
+      "type": "keyword",
+      "name": "WordSearch",
+      "description": "Word search keyword",
+      "default_value": "jw"
+    },
+    {
+      "id": "kanji_kw",
+      "type": "keyword",
+      "name": "KanjiSearch",
+      "description": "Kanji search keyword",
+      "default_value": "jk"
+    },
+    {
+      "id": "sentence_kw",
+      "type": "keyword",
+      "name": "SentenceSearch",
+      "description": "Sentence search keyword",
+      "default_value": "js"
+    },
+    {
+      "id": "name_kw",
+      "type": "keyword",
+      "name": "NameSearch",
+      "description": "Name search keyword",
+      "default_value": "jn"
+    },
+    {
+      "id": "language",
+      "type": "select",
+      "name": "Language",
+      "description": "Search language",
+      "default_value": "en-US",
+      "options": [
+        {"value":"en-US","text":"English"},
+        {"value":"de-DE","text":"German"}
+      ]
+    },
+    {
+      "id": "show_en",
+      "type": "select",
+      "name": "Show English",
+      "description": "Show english results",
+      "default_value": "0",
+      "options": [
+        {"value":"0","text":"No"},
+        {"value":"1","text":"Yes"}
+      ]
+    },
+    {
+      "id": "res_limit",
+      "type": "input",
+      "name": "Result count",
+      "description": "Amount of results to show",
+      "default_value": "10"
+    }
+  ]
+}
